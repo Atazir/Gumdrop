@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Source\Source.cpp" />
+    <ClCompile Include="..\Source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -73,13 +73,13 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\Game\$(PlatformName)</OutDir>
-    <IntDir>..\Temp\$(PlatformName)</IntDir>
+    <OutDir>..\..\Game\$(PlatformName)</OutDir>
+    <IntDir>..\..\Temp\$(PlatformName)</IntDir>
     <TargetName>$(ProjectName)_$(PlatformName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>..\Game\$(PlatformName)</OutDir>
-    <IntDir>..\Temp\$(PlatformName)</IntDir>
+    <OutDir>..\..\Game\$(PlatformName)</OutDir>
+    <IntDir>..\..\Temp\$(PlatformName)</IntDir>
     <TargetName>$(ProjectName)_$(PlatformName)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
