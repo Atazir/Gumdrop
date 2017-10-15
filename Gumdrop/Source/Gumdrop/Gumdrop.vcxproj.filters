@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Actors\SpecialAbilityComponent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Actor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -56,12 +50,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Source.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Actors\AbilitiesInterface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Actors\SpecialAbilityComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
