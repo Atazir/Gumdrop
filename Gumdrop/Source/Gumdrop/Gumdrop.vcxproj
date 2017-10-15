@@ -21,11 +21,33 @@
   <ItemGroup>
     <ClCompile Include="..\Actors\SpecialAbilityComponent.cpp" />
     <ClCompile Include="..\Source.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="SoundEmitter.cpp" />
+    <ClCompile Include="SoundListener.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="UI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Actors\AbilitiesInterface.h" />
     <ClInclude Include="..\Actors\SpecialAbilityComponent.h" />
     <ClInclude Include="..\Source.h" />
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="SoundEmitter.h" />
+    <ClInclude Include="SoundListener.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="UI.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
