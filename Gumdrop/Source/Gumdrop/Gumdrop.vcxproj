@@ -28,6 +28,7 @@
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="SoundEmitter.cpp" />
     <ClCompile Include="SoundListener.cpp" />
+    <ClCompile Include="Source.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="UI.cpp" />
   </ItemGroup>
