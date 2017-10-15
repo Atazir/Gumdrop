@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actor>
+  <CubePhysicsComponent>
+    <Transform>
+      <Position x="1.385" y="10.214" z="-2.882"/>
+      <Rotation x="3.461" y="355.699" z="204.332"/>
+      <Scale    x="7.218" y="7.218" z="5"/>
+    </Transform>
+    <Shape>
+      <size x="1" y="1" z="1"/>
+    </Shape>
+    <Collider>
+      <IsTrigger value="false"/>
+      <PhysicsMaterial>Null</PhysicsMaterial>
+      <Origin x="0" y="0" z="0"/>
+      <Size x="0" y="0" z="0"/>
+    </Collider>
+    <RigidBody>
+      <float name= "Mass">7.218</float>
+      <float name= "Drag">0</float>
+      <float name= "Angular Drag">0.05</float>
+      <UseGravity value="true"/>
+      <IsKinematic value="false"/>
+      <dropdown name="Interpolate">
+        <make value ="1">None</make>
+      </dropdown>
+      <dropdown name="Collision Detection">
+        <make value ="1">Continuous</make>
+      </dropdown>
+    </RigidBody>
+  </CubePhysicsComponent>
+    <MeshRenderer>
+      <CastShadows value="true"/>
+      <ReceiveShadows value="true"/>
+      <Material>
+        <integer name="Size">1</integer>
+        <Element>
+          <value>0="White</value>
+        </Element>
+        <UseLightProbes value="false"/>        
+      </Material>
+    </MeshRenderer>  
+</Actor>
